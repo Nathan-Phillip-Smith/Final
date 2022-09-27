@@ -1,0 +1,142 @@
+html, body, div, ul, li, h1, h2, h3, a, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%
+}
+html, body {
+    height: 100%
+
+}
+body {
+  
+    background-color: rgb(250, 250, 250);
+}
+.commentSection {
+    overflow: scroll;
+    white-space: normal;
+    margin: 180px 40px 80px 40px;
+    padding: 0 0 80px 0;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+
+}
+.pinned {
+    overflow: hidden;
+    white-space: nowrap;
+    margin:0 40px 0 40px;
+    height: 180px;
+    width: auto;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    background-color: White;
+}
+.user {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 30px 0 30px;
+    font-size: 20px;
+    
+}
+.user1 {
+    
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 30px 0 28px;
+    padding: 20px 0 0 0 0;
+    font-size: 15px;
+    
+}
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 30px 20px 30px;
+    font-size: 40px;
+   
+
+}
+.title1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 30px 0px 20px;
+    padding: 0 0 0 138px;
+    font-size: 30px;
+   
+
+}
+.aComment {
+    overflow: auto;
+    padding: 10px 0 0px 0;
+    margin: 20px 40px 0 40px;
+    height: fit-content;
+    width: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.inputArea {
+    overflow: hidden;
+    white-space: nowrap;
+    margin:0 40px 0 40px;
+    height: 80px;
+    width: auto;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    background-color: White;
+}
+.name {
+    margin: 25px 5px 25px 30px;
+    width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.comment {
+    margin: 25px 30px 25px 0;
+    width: 825px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.submit, .editSubmit:hover {
+    cursor: pointer;
+}
+.edit, .delete {
+    display:flex;
+    align-items: flex-end;
+    padding: 20px 0 0 0 0;
+    margin: px 10px 0 10px;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    color: lightblue;
+
+}
+.edit, .delete:hover {
+    cursor: pointer;
+}
+.edit {
+    padding: 0px 20px 0px 750px;
+}
+img {
+    float: left;
+    margin: 20px 0 20px 30px;
+}
+.in {
+    overflow: hidden;
+
+}
+.fix {
+    display: none;
+    margin: 25px 30px 25px 168px;
+    width: 800px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
